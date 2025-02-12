@@ -1,0 +1,4 @@
+1. Read appid from supabase table
+2. Access all info of that appid from bigq
+3. Run all the analysis
+4. Store the results in another bigq table called results 

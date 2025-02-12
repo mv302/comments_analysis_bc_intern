@@ -1,0 +1,6 @@
+
+move all the files to scripts folder in home 
+
+add this line to "crontab -e" to run it at specific time mentioned (for a system)
+
+0 * * * * /usr/bin/python3 /home/mv/scripts/analysis.py >> /home/mv/scripts/logs.txt 2>&1
